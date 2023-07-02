@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+    <div class="buttons">
+      <button onclick="clearResult()" class="orange-btn">C</button>
+      <button onclick="deleteLast()" class="orange-btn">DEL</button>
+      <button onclick="appendtoResult('9')">9</button>
+      <button onclick="appendtoResult('8')">8</button>
+      <button onclick="appendtoResult('7')">7</button>
+      <button onclick="appendtoResult('/')">/</button>
+      <button onclick="appendtoResult('*')">*</button>
+      <button onclick="appendtoResult('6')">6</button>
+      <button onclick="appendtoResult('5')">5</button>
+      <button onclick="appendtoResult('4')">4</button>
+      <button onclick="appendtoResult('-')">-</button>
+      <button onclick="appendtoResult('+')">+</button>
+      <button onclick="appendtoResult('3')">3</button>
+      <button onclick="appendtoResult('2')">2</button>
+      <button onclick="appendtoResult('1')">1</button>
+      <button onclick="calculateResult()" class="orange-btn">=</button>
+      <button onclick="appendtoResult('.')">.</button>
+      <button onclick="appendtoResult('0')">0</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
